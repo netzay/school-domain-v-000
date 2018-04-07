@@ -21,7 +21,7 @@ class School
   end
   
   def sort
-    @roster.sort_by!{ |k| k["value"]}
+    @roster.sort_by { |k| k["value"]}
 
   end    
   
