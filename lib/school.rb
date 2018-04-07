@@ -21,7 +21,7 @@ class School
   end
   
   def sort
-    @roster.sort {|student, grade| student["student"] <=> grade["student"]}
+    @roster.sort_by!{ |k| k["value"]}
 
   end    
   
